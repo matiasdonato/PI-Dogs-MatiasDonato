@@ -1,0 +1,35 @@
+.dogCardContainer {
+    height: 33vh;
+    width: 32vh;
+    background-color: #090101;
+    border-radius: 25px 25px 8px 8px;
+    border: solid 6px #090101;
+    transition: all 0.5s;
+}
+
+.dogCardContainer img {
+    height: 60%;
+    width: 100%;
+    border-radius: 18px 18px 0 0;
+    transition: all 0.5s;
+}
+
+.dogCardContainer div {
+    color: #efe8c7;
+    transition: all 0.5s;
+}
+
+.dogCardContainer:hover {
+    transform: scale(1.04);
+    background-color: #858062;
+    border: solid 6px #858062;
+    border-radius: 5px 40px 40px 40px;
+}
+
+.dogCardContainer:hover img {
+    border-radius: 5px 35px 0 0;
+}
+
+.dogCardContainer:hover div {
+    color: white;
+}
